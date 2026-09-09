@@ -1,0 +1,785 @@
+{
+  "suppliers": {
+    "2": {
+      "id": 2,
+      "name": "Toko Daging Pak Haji",
+      "contact": "08198765432",
+      "address": "Pasar Minggu Blok A12",
+      "notes": "Daging & ayam"
+    },
+    "3": {
+      "id": 3,
+      "name": "Toko Bumbu Bu Sri",
+      "contact": "",
+      "address": "",
+      "notes": "Bumbu lengkap"
+    }
+  },
+  "2026-04-28": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 2,
+        "timestamp": "2026-04-28 07:30:00",
+        "items": [
+          {
+            "name": "Ayam Potong",
+            "quantity": 10,
+            "unit": "kg",
+            "price_per_unit": 38000,
+            "cost": 380000,
+            "category": "daging",
+            "deleted_at": null
+          },
+          {
+            "name": "Daging Sapi",
+            "quantity": 5,
+            "unit": "kg",
+            "price_per_unit": 130000,
+            "cost": 650000,
+            "category": "daging"
+          },
+          {
+            "name": "Ikan Gurame",
+            "quantity": 8,
+            "unit": "ekor",
+            "price_per_unit": 45000,
+            "cost": 360000,
+            "category": "daging"
+          }
+        ],
+        "total": 1390000
+      },
+      {
+        "id": 2,
+        "supplier_id": 1,
+        "timestamp": "2026-04-28 08:15:00",
+        "items": [
+          {
+            "name": "Bawang Merah",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 35000,
+            "cost": 105000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Bawang Putih",
+            "quantity": 2,
+            "unit": "kg",
+            "price_per_unit": 32000,
+            "cost": 64000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Cabai Merah",
+            "quantity": 2,
+            "unit": "kg",
+            "price_per_unit": 55000,
+            "cost": 110000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Tomat",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 12000,
+            "cost": 36000,
+            "category": "sayuran"
+          },
+          {
+            "name": "Wortel",
+            "quantity": 2,
+            "unit": "kg",
+            "price_per_unit": 15000,
+            "cost": 30000,
+            "category": "sayuran"
+          }
+        ],
+        "total": 345000
+      }
+    ],
+    "day_total": 1735000
+  },
+  "2026-04-29": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 1,
+        "timestamp": "2026-04-29 07:00:00",
+        "items": [
+          {
+            "name": "Beras Premium",
+            "quantity": 25,
+            "unit": "kg",
+            "price_per_unit": 14000,
+            "cost": 350000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Minyak Goreng",
+            "quantity": 5,
+            "unit": "liter",
+            "price_per_unit": 18000,
+            "cost": 90000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Gula Pasir",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 16000,
+            "cost": 48000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Tepung Terigu",
+            "quantity": 5,
+            "unit": "kg",
+            "price_per_unit": 12000,
+            "cost": 60000,
+            "category": "bahan_pokok"
+          }
+        ],
+        "total": 548000
+      }
+    ],
+    "day_total": 548000
+  },
+  "2026-04-30": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 2,
+        "timestamp": "2026-04-30 06:45:00",
+        "items": [
+          {
+            "name": "Ayam Potong",
+            "quantity": 15,
+            "unit": "kg",
+            "price_per_unit": 38000,
+            "cost": 570000,
+            "category": "daging"
+          },
+          {
+            "name": "Udang",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 95000,
+            "cost": 285000,
+            "category": "daging"
+          },
+          {
+            "name": "Telur Ayam",
+            "quantity": 10,
+            "unit": "kg",
+            "price_per_unit": 28000,
+            "cost": 280000,
+            "category": "susu_telur"
+          }
+        ],
+        "total": 1135000
+      },
+      {
+        "id": 2,
+        "supplier_id": 3,
+        "timestamp": "2026-04-30 08:00:00",
+        "items": [
+          {
+            "name": "Santan Kelapa",
+            "quantity": 5,
+            "unit": "liter",
+            "price_per_unit": 25000,
+            "cost": 125000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Kecap Manis",
+            "quantity": 3,
+            "unit": "botol",
+            "price_per_unit": 22000,
+            "cost": 66000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Box Makan",
+            "quantity": 200,
+            "unit": "pcs",
+            "price_per_unit": 1500,
+            "cost": 300000,
+            "category": "packaging"
+          }
+        ],
+        "total": 491000
+      }
+    ],
+    "day_total": 1626000
+  },
+  "2026-05-01": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 1,
+        "timestamp": "2026-05-01 07:15:00",
+        "items": [
+          {
+            "name": "Kentang",
+            "quantity": 5,
+            "unit": "kg",
+            "price_per_unit": 18000,
+            "cost": 90000,
+            "category": "sayuran"
+          },
+          {
+            "name": "Buncis",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 12000,
+            "cost": 36000,
+            "category": "sayuran"
+          },
+          {
+            "name": "Kol",
+            "quantity": 4,
+            "unit": "kg",
+            "price_per_unit": 8000,
+            "cost": 32000,
+            "category": "sayuran"
+          },
+          {
+            "name": "Bawang Merah",
+            "quantity": 2,
+            "unit": "kg",
+            "price_per_unit": 36000,
+            "cost": 72000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Cabai Merah",
+            "quantity": 1.5,
+            "unit": "kg",
+            "price_per_unit": 58000,
+            "cost": 87000,
+            "category": "bumbu"
+          }
+        ],
+        "total": 317000
+      },
+      {
+        "id": 2,
+        "supplier_id": 2,
+        "timestamp": "2026-05-01 08:30:00",
+        "items": [
+          {
+            "name": "Ayam Potong",
+            "quantity": 12,
+            "unit": "kg",
+            "price_per_unit": 39000,
+            "cost": 468000,
+            "category": "daging"
+          },
+          {
+            "name": "Daging Sapi",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 135000,
+            "cost": 405000,
+            "category": "daging"
+          }
+        ],
+        "total": 873000
+      }
+    ],
+    "day_total": 1190000
+  },
+  "2026-05-02": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 1,
+        "timestamp": "2026-05-02 07:00:00",
+        "items": [
+          {
+            "name": "Beras Premium",
+            "quantity": 15,
+            "unit": "kg",
+            "price_per_unit": 14000,
+            "cost": 210000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Minyak Goreng",
+            "quantity": 3,
+            "unit": "liter",
+            "price_per_unit": 18000,
+            "cost": 54000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Tahu",
+            "quantity": 50,
+            "unit": "pcs",
+            "price_per_unit": 1000,
+            "cost": 50000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Tempe",
+            "quantity": 30,
+            "unit": "pcs",
+            "price_per_unit": 2000,
+            "cost": 60000,
+            "category": "bahan_pokok"
+          },
+          {
+            "name": "Gas LPG 12kg",
+            "quantity": 2,
+            "unit": "pcs",
+            "price_per_unit": 175000,
+            "cost": 350000,
+            "category": "gas_listrik"
+          }
+        ],
+        "total": 724000
+      }
+    ],
+    "day_total": 724000
+  },
+  "2026-05-03": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 2,
+        "timestamp": "2026-05-03 06:30:00",
+        "items": [
+          {
+            "name": "Ayam Potong",
+            "quantity": 20,
+            "unit": "kg",
+            "price_per_unit": 38500,
+            "cost": 770000,
+            "category": "daging"
+          },
+          {
+            "name": "Ikan Kakap",
+            "quantity": 5,
+            "unit": "kg",
+            "price_per_unit": 75000,
+            "cost": 375000,
+            "category": "daging"
+          },
+          {
+            "name": "Telur Ayam",
+            "quantity": 15,
+            "unit": "kg",
+            "price_per_unit": 28000,
+            "cost": 420000,
+            "category": "susu_telur"
+          }
+        ],
+        "total": 1565000,
+        "deleted_at": null
+      },
+      {
+        "id": 2,
+        "supplier_id": 1,
+        "timestamp": "2026-05-03 08:00:00",
+        "items": [
+          {
+            "name": "Cabai Merah",
+            "quantity": 3,
+            "unit": "kg",
+            "price_per_unit": 52000,
+            "cost": 156000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Bawang Merah",
+            "quantity": 4,
+            "unit": "kg",
+            "price_per_unit": 34000,
+            "cost": 136000,
+            "category": "bumbu"
+          },
+          {
+            "name": "Kangkung",
+            "quantity": 10,
+            "unit": "ikat",
+            "price_per_unit": 3000,
+            "cost": 30000,
+            "category": "sayuran"
+          },
+          {
+            "name": "Bayam",
+            "quantity": 8,
+            "unit": "ikat",
+            "price_per_unit": 3000,
+            "cost": 24000,
+            "category": "sayuran"
+          }
+        ],
+        "total": 346000,
+        "deleted_at": null
+      },
+      {
+        "id": 3,
+        "supplier_id": null,
+        "timestamp": "2026-05-03 09:00:00",
+        "items": [
+          {
+            "name": "Air Mineral Gelas",
+            "quantity": 4,
+            "unit": "dus",
+            "price_per_unit": 22000,
+            "cost": 88000,
+            "category": "minuman"
+          },
+          {
+            "name": "Teh Kotak",
+            "quantity": 2,
+            "unit": "dus",
+            "price_per_unit": 48000,
+            "cost": 96000,
+            "category": "minuman"
+          },
+          {
+            "name": "Box Makan",
+            "quantity": 300,
+            "unit": "pcs",
+            "price_per_unit": 1500,
+            "cost": 450000,
+            "category": "packaging"
+          },
+          {
+            "name": "Plastik Wrap",
+            "quantity": 3,
+            "unit": "pcs",
+            "price_per_unit": 15000,
+            "cost": 45000,
+            "category": "packaging"
+          }
+        ],
+        "total": 679000
+      }
+    ],
+    "day_total": 2590000
+  },
+  "2026-05-04": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": null,
+        "timestamp": "2026-05-04 14:11:41",
+        "items": [
+          {
+            "name": "Iga Sapi",
+            "quantity": 20.0,
+            "unit": "kg",
+            "price_per_unit": 30000.0,
+            "cost": 600000.0,
+            "category": "daging"
+          }
+        ],
+        "total": 600000.0
+      }
+    ],
+    "day_total": 600000.0
+  },
+  "2026-03-22": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 1,
+        "timestamp": "2026-05-04 14:23:18",
+        "items": [
+          {
+            "name": "Bawang Merah",
+            "quantity": 5.0,
+            "unit": "kg",
+            "price_per_unit": 15000.0,
+            "cost": 75000.0,
+            "category": "sayuran"
+          }
+        ],
+        "total": 75000.0
+      }
+    ],
+    "day_total": 75000.0
+  },
+  "2026-05-05": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": null,
+        "timestamp": "2026-05-05 15:34:32",
+        "items": [
+          {
+            "name": "Ayam",
+            "quantity": 10.0,
+            "unit": "kg",
+            "price_per_unit": 35200.0,
+            "cost": 352000.0,
+            "category": "daging"
+          }
+        ],
+        "total": 352000.0
+      }
+    ],
+    "day_total": 352000.0
+  },
+  "2026-05-25": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": null,
+        "timestamp": "2026-05-25 14:00:00",
+        "items": [
+          {
+            "name": "Ayam Potong",
+            "quantity": 120.0,
+            "unit": "kg",
+            "price_per_unit": 31500.0,
+            "cost": 3780000.0,
+            "category": "bahan_pokok"
+          }
+        ],
+        "total": 3780000.0
+      }
+    ],
+    "day_total": 3780000.0
+  },
+  "2026-06-02": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": null,
+        "timestamp": "2026-06-02 10:49:29",
+        "items": [
+          {
+            "name": "telur",
+            "quantity": 10.0,
+            "unit": "kg",
+            "price_per_unit": 23000.0,
+            "cost": 230000.0,
+            "category": "bahan_pokok"
+          }
+        ],
+        "total": 230000.0
+      },
+      {
+        "id": 2,
+        "supplier_id": null,
+        "timestamp": "2026-06-02 14:03:45",
+        "items": [
+          {
+            "name": "Telur",
+            "quantity": 10.0,
+            "unit": "kg",
+            "price_per_unit": 22000.0,
+            "cost": 220000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          }
+        ],
+        "total": 220000.0,
+        "deleted_at": null
+      }
+    ],
+    "day_total": 450000.0
+  },
+  "2026-09-07": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 2,
+        "timestamp": "2026-09-07 17:04:13",
+        "items": [
+          {
+            "name": "Ayam Paha",
+            "quantity": 2.0,
+            "unit": "kg",
+            "price_per_unit": 25000.0,
+            "cost": 50000.0,
+            "category": "daging",
+            "deleted_at": null
+          }
+        ],
+        "total": 50000.0,
+        "deleted_at": "2026-09-07 17:57:07"
+      },
+      {
+        "id": 2,
+        "supplier_id": null,
+        "timestamp": "2026-09-07 17:56:56",
+        "items": [
+          {
+            "name": "Wortel",
+            "quantity": 2.0,
+            "unit": "ikat",
+            "price_per_unit": 14000.0,
+            "cost": 28000.0,
+            "category": "sayuran",
+            "deleted_at": null
+          }
+        ],
+        "total": 28000.0,
+        "deleted_at": "2026-09-07 22:38:28"
+      },
+      {
+        "id": 3,
+        "supplier_id": 2,
+        "timestamp": "2026-09-07 22:47:32",
+        "items": [
+          {
+            "name": "Ayam",
+            "quantity": 2.0,
+            "unit": "kg",
+            "price_per_unit": 25000.0,
+            "cost": 50000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          }
+        ],
+        "total": 50000.0,
+        "deleted_at": "2026-09-07 23:06:12"
+      },
+      {
+        "id": 4,
+        "supplier_id": null,
+        "timestamp": "2026-09-07 22:49:51",
+        "items": [
+          {
+            "name": "Daging Sapi",
+            "quantity": 10.0,
+            "unit": "kg",
+            "price_per_unit": 5000000.0,
+            "cost": 50000000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          }
+        ],
+        "total": 50000000.0,
+        "deleted_at": "2026-09-07 23:06:14"
+      },
+      {
+        "id": 5,
+        "supplier_id": null,
+        "timestamp": "2026-09-07 23:07:27",
+        "items": [
+          {
+            "name": "Ayam Dada",
+            "quantity": 2.0,
+            "unit": "kg",
+            "price_per_unit": 45000.0,
+            "cost": 90000.0,
+            "category": "daging",
+            "deleted_at": null
+          },
+          {
+            "name": "Kol",
+            "quantity": 3.0,
+            "unit": "ikat",
+            "price_per_unit": 20000.0,
+            "cost": 60000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          },
+          {
+            "name": "Bumbu Kaldu",
+            "quantity": 4.0,
+            "unit": "bungkus",
+            "price_per_unit": 12000.0,
+            "cost": 48000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          }
+        ],
+        "total": 198000.0,
+        "deleted_at": null
+      }
+    ],
+    "day_total": 198000.0
+  },
+  "2026-09-06": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": 3,
+        "timestamp": "2026-09-07 22:50:40",
+        "items": [
+          {
+            "name": "Wortel",
+            "quantity": 2.0,
+            "unit": "ikat",
+            "price_per_unit": 10000.0,
+            "cost": 20000.0,
+            "category": "sayuran",
+            "deleted_at": null
+          }
+        ],
+        "total": 20000.0,
+        "deleted_at": "2026-09-07 23:06:25"
+      },
+      {
+        "id": 2,
+        "supplier_id": null,
+        "timestamp": "2026-09-07 23:08:07",
+        "items": [
+          {
+            "name": "Daging Sapi Wagyu",
+            "quantity": 2.0,
+            "unit": "kg",
+            "price_per_unit": 1000000.0,
+            "cost": 2000000.0,
+            "category": "daging",
+            "deleted_at": null
+          }
+        ],
+        "total": 2000000.0,
+        "deleted_at": null
+      }
+    ],
+    "day_total": 2000000.0
+  },
+  "2026-09-09": {
+    "bulk_inputs": [
+      {
+        "id": 1,
+        "supplier_id": null,
+        "timestamp": "2026-09-09 17:45:11",
+        "items": [
+          {
+            "name": "udang",
+            "quantity": 2.0,
+            "unit": "kg",
+            "price_per_unit": 145000.0,
+            "cost": 290000.0,
+            "category": "daging",
+            "deleted_at": null
+          }
+        ],
+        "total": 290000.0,
+        "deleted_at": "2026-09-09 18:55:35"
+      },
+      {
+        "id": 2,
+        "supplier_id": null,
+        "timestamp": "2026-09-09 18:58:00",
+        "items": [
+          {
+            "name": "ayam",
+            "quantity": 1.0,
+            "unit": "kg",
+            "price_per_unit": 70000.0,
+            "cost": 70000.0,
+            "category": "bahan_pokok",
+            "deleted_at": null
+          }
+        ],
+        "total": 70000.0,
+        "deleted_at": null
+      }
+    ],
+    "day_total": 70000.0
+  }
+}

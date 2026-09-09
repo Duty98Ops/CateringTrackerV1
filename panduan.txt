@@ -1,0 +1,7 @@
+pip install flask
+pip install flask-cors
+pip install -r requirements.txt
+
+python app.py 
+
+semua di cmd
