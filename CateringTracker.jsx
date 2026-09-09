@@ -2,8 +2,12 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, CartesianGrid, Legend } from "recharts";
 
 // ── Config ─────────────────────────────────────────────────────
-const API = "http://localhost:5000/api";
+// const API = "http://localhost:5000/api";
+// Ganti baris ini:
+// const API = "http://localhost:5000/api";
 
+// Menjadi baris ini:
+const API = "/api";
 const CATEGORIES = [
   { key: "bahan_pokok", label: "Bahan Pokok", icon: "🌾" },
   { key: "daging", label: "Daging & Seafood", icon: "🥩" },
